@@ -1,0 +1,274 @@
+{% extends "base.html" %} {% load i18n %} {% load static %}
+<!-- Title -->
+{% block title %}About{% endblock %}
+
+<!-- CSS -->
+{% block css %}
+<link rel="stylesheet" href="{% static 'app/css/index.css' %}" />
+{% endblock %}
+
+<!-- Content -->
+{% block content %}
+<nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-lg">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Feature</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Team</a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section id="hero" class="hero">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 d-flex flex-column justify-content-center text-center text-lg-start">
+                <h2>Wlecome to <span>Hazira</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis modi praesentium quas libero beatae
+                    ad deleniti vel at rerum? Labore, veritatis. Ea recusandae dignissimos dolore facilis eum unde sint
+                    voluptate.</p>
+                <div class="d-flex justify-content-center justify-content-lg-start">
+                    <button type="button" class="btn btn-outline-info" style="margin-right: 1rem;">Get Started</button>
+                    <button type="button" class="btn btn-outline-info">Watch</button>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <img src="{% static 'app/img/GAIL.png' %}" class="img-fluid" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-3 col-md-6">
+                <div class="card" style="width: 18rem;">
+                    <img src="{% static 'app/img/GAIL.png' %}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's
+                            content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-6">
+                <div class="card" style="width: 18rem;">
+                    <img src="{% static 'app/img/GAIL.png' %}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's
+                            content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-6">
+                <div class="card" style="width: 18rem;">
+                    <img src="{% static 'app/img/GAIL.png' %}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's
+                            content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-6">
+                <div class="card" style="width: 18rem;">
+                    <img src="{% static 'app/img/GAIL.png' %}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's
+                            content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<secion id="about" class="about">
+    <div class="container">
+
+
+        <div class="section-header" style="text-align: center;">
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur dignissimos doloremque repudiandae
+                earum
+                esse nobis consectetur tempora? Molestias dolorem, at fugiat ipsa suscipit numquam unde tenetur saepe
+                cum
+                animi vel!</p>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus sit, atque voluptatum impedit
+                    corporis molestias modi, eum ratione dolorem, voluptate omnis velit libero quidem voluptatem quaerat
+                    laboriosam totam ex. Perferendis!</h3>
+                <img src="{% static 'app/img/GAIL.png' %}" class="img-fluid rounded-4 mb-4" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis totam fugit quidem dolore id quam
+                    suscipit repellendus, sed maiores, maxime voluptates explicabo perspiciatis enim. Ullam consectetur
+                    perferendis dicta deserunt voluptatum?</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur dignissimos quas facilis animi
+                    ipsum. Voluptate, similique consectetur dolores repellat nihil maxime asperiores accusantium numquam
+                    molestiae repudiandae, quae eum? Iure, necessitatibus.</p>
+            </div>
+            <div class="col-lg-6">
+                <div class="content">
+                    <p class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam ex vitae,
+                        eveniet maiores sequi aperiam iusto placeat omnis consequatur autem perferendis consectetur? Eos
+                        sit eligendi fugiat vitae quisquam enim autem.</p>
+                    <ul>
+                        <li>
+                            <i class="fa-regular fa-regular fa-circle-check "></i>Lorem ipsum dolor sit amet,
+                            consectetur adipisicing elit. Minima magnam officia corporis, nobis, laborum quas adipisci
+                            asperiores nostrum perspiciatis nesciunt, sapiente eligendi reiciendis quia suscipit quis
+                            qui dignissimos aut odio?
+                        </li>
+                        <li>
+                            <i class="fa-regular fa-regular fa-circle-check "></i>Lorem ipsum dolor sit amet,
+                            consectetur adipisicing elit. Minima magnam officia corporis, nobis, laborum quas adipisci
+                            asperiores nostrum perspiciatis nesciunt, sapiente eligendi reiciendis quia suscipit quis
+                            qui dignissimos aut odio?
+                        </li>
+                        <li>
+                            <i class="fa-regular fa-regular fa-circle-check "></i>Lorem ipsum dolor sit amet,
+                            consectetur adipisicing elit. Minima magnam officia corporis, nobis, laborum quas adipisci
+                            asperiores nostrum perspiciatis nesciunt, sapiente eligendi reiciendis quia suscipit quis
+                            qui dignissimos aut odio?
+                        </li>
+                    </ul>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum unde pariatur distinctio adipisci
+                        vel quam officia aliquam quae beatae soluta? Repellendus dignissimos soluta, ad in molestiae
+                        quod deserunt consequuntur ipsa!</p>
+                </div>
+                <div>
+                    <img src="{% static 'app/img/GAIL.png' %}" class="img-fluid rounded-4" alt="">
+                    <a href=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</secion>
+
+<section id="clients" class="clients">
+    <div class="container text-center my-3">
+        <div class="row mx-auto my-auto justify-content-center">
+            <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <div class="col-md-3">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="https://via.placeholder.com/700x500.png/CB997E/333333?text=1"
+                                        class="img-fluid">
+                                </div>
+                                <div class="card-img-overlay">Slide 1</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="https://via.placeholder.com/700x500.png/DDBEA9/333333?text=2"
+                                        class="img-fluid">
+                                </div>
+                                <div class="card-img-overlay">Slide 2</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="https://via.placeholder.com/700x500.png/FFE8D6/333333?text=3"
+                                        class="img-fluid">
+                                </div>
+                                <div class="card-img-overlay">Slide 3</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="https://via.placeholder.com/700x500.png/B7B7A4/333333?text=4"
+                                        class="img-fluid">
+                                </div>
+                                <div class="card-img-overlay">Slide 4</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="https://via.placeholder.com/700x500.png/A5A58D/333333?text=5"
+                                        class="img-fluid">
+                                </div>
+                                <div class="card-img-overlay">Slide 5</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="https://via.placeholder.com/700x500.png/6B705C/eeeeee?text=6"
+                                        class="img-fluid">
+                                </div>
+                                <div class="card-img-overlay">Slide 6</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </a>
+                <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="stats-counter" class="stats-counter">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+
+            </div>
+            <div class="col-lg-6">
+            
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+<!-- JS -->
+{% block js %}
+<script src="{% static 'app/js/index.js' %}" />
+{% endblock %}
